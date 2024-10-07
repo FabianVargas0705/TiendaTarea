@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.vertical-navbar {
+    width: 80px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-link {
+    padding: 20px;
+    text-align: center;
+    color: #007bff;
+}
+
+.nav-link:hover {
+    background-color: #e9ecef;
+}
+
+.nav-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.profile-section {
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
